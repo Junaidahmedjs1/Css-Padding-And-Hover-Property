@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 3rem;
+    font-variant: small-caps;
+}
+h1:hover{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px #000;
+    background-color: red;
+}
+.sections-text{
+   display: grid;
+   place-items: center;
+   width: 60vw;
+   line-height: 1.5;
+   letter-spacing:2px;
+   height: 30vh;
+   text-align: center;  
+   border: 10px solid #009b0091;
+   position: absolute;
+   left: 50px;
+   top:150px;
+   font-variant: small-caps;
+   padding: 100px 120px 180px 130px;
+     margin: 15px 10px 100px 200px;
+     background:linear-gradient(to right,#0a326b  ,#003b99);
+   color: white;
+}
